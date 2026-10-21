@@ -14,8 +14,8 @@ export default function RegisterExpenses() {
               <label className="block mb-3 text-sm font-medium text-gray-900 dark:text-gray-300" htmlFor="category">
                 Categoria
               </label>
-              <Select className="w-full" id="category">
-                <SelectTrigger>
+              <Select>
+                <SelectTrigger id="category" className="w-full">
                   <SelectValue placeholder="Selecione uma categoria" />
                 </SelectTrigger>
                 <SelectContent>
