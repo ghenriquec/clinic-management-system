@@ -18,8 +18,8 @@ export default function Component() {
               <label className="text-sm font-medium" htmlFor="rating">
                 Avaliação
               </label>
-              <Select defaultValue="4" id="rating">
-                <SelectTrigger>
+              <Select defaultValue="4">
+                <SelectTrigger id="rating">
                   <SelectValue placeholder="Selecione a avaliação" />
                 </SelectTrigger>
                 <SelectContent>
@@ -35,8 +35,8 @@ export default function Component() {
               <label className="text-sm font-medium" htmlFor="category">
                 Categoria
               </label>
-              <Select defaultValue="atendimento" id="category">
-                <SelectTrigger>
+              <Select defaultValue="atendimento">
+                <SelectTrigger id="category">
                   <SelectValue placeholder="Selecione a categoria" />
                 </SelectTrigger>
                 <SelectContent>
