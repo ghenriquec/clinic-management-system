@@ -38,11 +38,18 @@ Project scripts:
 
 ```bash
 npm run lint
+npx tsc --noEmit --pretty false
 npm run build
 npm run start
 ```
 
-The production build may require external access for the Inter Google Font configured in the root layout. These commands document how to run the project; they are not a claim that all flows are working.
+## Quality checks
+
+[GitHub Actions](.github/workflows/ci.yml) verifies installation from the lockfile, ESLint, TypeScript types, and a production build on source or dependency changes.
+
+**CI passing does not mean features are functional:** the current checks do not exercise appointments, authentication, data persistence, or any patient-related end-to-end workflows. Do not use this prototype with real patient data.
+
+The production build may require external access for the Inter Google Font configured in the root layout.
 
 ## Project layout
 
@@ -61,7 +68,9 @@ The priorities below are **planned work**, not completed functionality.
 - [ ] Replace placeholder navigation links with working routes.
 - [ ] Implement authentication and authorization rules.
 - [ ] Add persistent storage and validation for clinical operations.
-- [ ] Introduce tests and reliable CI for business-critical flows.
+- [x] Add CI for lint, static typing, and production build.
+- [ ] Add automated unit, integration, and end-to-end tests for business-critical flows.
+- [ ] Review and upgrade the older Next.js and React dependency stack before a public deployment.
 - [ ] Document data handling, privacy, and security requirements before any real patient data is used.
 
 ## Security and privacy
