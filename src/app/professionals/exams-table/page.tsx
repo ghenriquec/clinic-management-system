@@ -1,3 +1,4 @@
+import type { SVGProps } from "react";
 import { TableHead, TableRow, TableHeader, TableCell, TableBody, Table } from "@/components/ui/table"
 import { Button } from "@/components/ui/button"
 import { DropdownMenuTrigger, DropdownMenuItem, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu"
@@ -143,7 +144,7 @@ export default function ExamsTable() {
   )
 }
 
-function MoveHorizontalIcon(props) {
+function MoveHorizontalIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

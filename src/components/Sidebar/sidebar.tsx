@@ -1,3 +1,4 @@
+import type { SVGProps } from "react";
 import Link from "next/link"
 import { CollapsibleTrigger, CollapsibleContent, Collapsible } from "@/components/ui/collapsible"
 
@@ -155,7 +156,7 @@ export default function Sidebar() {
   )
 }
 
-function BarChartIcon(props) {
+function BarChartIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -177,7 +178,7 @@ function BarChartIcon(props) {
 }
 
 
-function BriefcaseIcon(props) {
+function BriefcaseIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -198,7 +199,7 @@ function BriefcaseIcon(props) {
 }
 
 
-function CalendarIcon(props) {
+function CalendarIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -221,7 +222,7 @@ function CalendarIcon(props) {
 }
 
 
-function ChevronDownIcon(props) {
+function ChevronDownIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -241,7 +242,7 @@ function ChevronDownIcon(props) {
 }
 
 
-function ClipboardIcon(props) {
+function ClipboardIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -262,7 +263,7 @@ function ClipboardIcon(props) {
 }
 
 
-function CogIcon(props) {
+function CogIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -295,7 +296,7 @@ function CogIcon(props) {
 }
 
 
-function CrossIcon(props) {
+function CrossIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -315,7 +316,7 @@ function CrossIcon(props) {
 }
 
 
-function DollarSignIcon(props) {
+function DollarSignIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -336,7 +337,7 @@ function DollarSignIcon(props) {
 }
 
 
-function HomeIcon(props) {
+function HomeIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -357,7 +358,7 @@ function HomeIcon(props) {
 }
 
 
-function PlusIcon(props) {
+function PlusIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -378,7 +379,7 @@ function PlusIcon(props) {
 }
 
 
-function TextIcon(props) {
+function TextIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -400,7 +401,7 @@ function TextIcon(props) {
 }
 
 
-function UserIcon(props) {
+function UserIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -421,7 +422,7 @@ function UserIcon(props) {
 }
 
 
-function UsersIcon(props) {
+function UsersIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -444,7 +445,7 @@ function UsersIcon(props) {
 }
 
 
-function XIcon(props) {
+function XIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

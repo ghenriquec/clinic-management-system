@@ -1,3 +1,4 @@
+import type { SVGProps } from "react";
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
@@ -210,7 +211,7 @@ export default function Component() {
   )
 }
 
-function FilterIcon(props) {
+function FilterIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -230,7 +231,7 @@ function FilterIcon(props) {
 }
 
 
-function MoveHorizontalIcon(props) {
+function MoveHorizontalIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -252,7 +253,7 @@ function MoveHorizontalIcon(props) {
 }
 
 
-function SearchIcon(props) {
+function SearchIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

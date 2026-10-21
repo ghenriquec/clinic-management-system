@@ -1,3 +1,4 @@
+import type { SVGProps } from "react";
 import { Button } from "@/components/ui/button"
 import { PopoverTrigger, PopoverContent, Popover } from "@/components/ui/popover"
 import { Calendar } from "@/components/ui/calendar"
@@ -114,7 +115,7 @@ export default function FinanceFlow() {
   )
 }
 
-function CalendarClockIcon(props) {
+function CalendarClockIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -139,7 +140,7 @@ function CalendarClockIcon(props) {
 }
 
 
-function DownloadIcon(props) {
+function DownloadIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

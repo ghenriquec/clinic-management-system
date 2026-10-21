@@ -1,3 +1,4 @@
+import type { SVGProps } from "react";
 
 import { TableHead, TableRow, TableHeader, TableCell, TableBody, Table } from "@/components/ui/table"
 import { Button } from "@/components/ui/button"
@@ -105,7 +106,7 @@ export default function OwnerTable() {
   )
 }
 
-function DeleteIcon(props) {
+function DeleteIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -127,7 +128,7 @@ function DeleteIcon(props) {
 }
 
 
-function TrashIcon(props) {
+function TrashIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

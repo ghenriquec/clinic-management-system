@@ -1,3 +1,4 @@
+import type { SVGProps } from "react";
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { DropdownMenuTrigger, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuCheckboxItem, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu"
@@ -131,7 +132,7 @@ export default function PatientsTable() {
   )
 }
 
-function DeleteIcon(props) {
+function DeleteIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -153,7 +154,7 @@ function DeleteIcon(props) {
 }
 
 
-function EyeIcon(props) {
+function EyeIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -174,7 +175,7 @@ function EyeIcon(props) {
 }
 
 
-function FilterIcon(props) {
+function FilterIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -194,7 +195,7 @@ function FilterIcon(props) {
 }
 
 
-function PlusIcon(props) {
+function PlusIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -215,7 +216,7 @@ function PlusIcon(props) {
 }
 
 
-function SearchIcon(props) {
+function SearchIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -236,7 +237,7 @@ function SearchIcon(props) {
 }
 
 
-function TrashIcon(props) {
+function TrashIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
