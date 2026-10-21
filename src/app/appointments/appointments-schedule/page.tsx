@@ -20,8 +20,8 @@ export default function appointmentsSchedule() {
             </div>
             <div className="space-y-2">
               <Label htmlFor="time">Select Time</Label>
-              <Select id="time">
-                <SelectTrigger>
+              <Select>
+                <SelectTrigger id="time">
                   <SelectValue placeholder="Select time" />
                 </SelectTrigger>
                 <SelectContent>
@@ -59,8 +59,8 @@ export default function appointmentsSchedule() {
               </div>
             <div className="space-y-2">
                 <Label htmlFor="appointment">Appointment Type</Label>
-                <Select id="appointment">
-                    <SelectTrigger>
+                <Select>
+                    <SelectTrigger id="appointment">
                         <SelectValue placeholder="Select appointment type" />
                     </SelectTrigger>
                     <SelectContent>
