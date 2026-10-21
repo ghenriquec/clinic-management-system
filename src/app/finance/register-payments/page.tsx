@@ -13,8 +13,8 @@ export default function RegisterPayments() {
               <label className="block mb-3 text-sm font-medium text-gray-900 dark:text-gray-300" htmlFor="patient">
                 Paciente
               </label>
-              <Select className="w-full" id="patient">
-                <SelectTrigger>
+              <Select>
+                <SelectTrigger id="patient" className="w-full">
                   <SelectValue placeholder="Selecione um paciente" />
                 </SelectTrigger>
                 <SelectContent>
@@ -42,8 +42,8 @@ export default function RegisterPayments() {
               <label className="block mb-3 text-sm font-medium text-gray-900 dark:text-gray-300" htmlFor="service">
                 Serviço
               </label>
-              <Select className="w-full" id="service">
-                <SelectTrigger>
+              <Select>
+                <SelectTrigger id="service" className="w-full">
                   <SelectValue placeholder="Selecione o serviço" />
                 </SelectTrigger>
                 <SelectContent>
@@ -64,8 +64,8 @@ export default function RegisterPayments() {
             <label className="block mb-3 text-sm font-medium text-gray-900 dark:text-gray-300" htmlFor="invoice">
               Vincular a Fatura
             </label>
-            <Select className="w-full" id="invoice">
-              <SelectTrigger>
+            <Select>
+              <SelectTrigger id="invoice" className="w-full">
                 <SelectValue placeholder="Selecione a fatura" />
               </SelectTrigger>
               <SelectContent>
