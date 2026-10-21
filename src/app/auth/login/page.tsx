@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import Link from "next/link"
@@ -25,7 +24,7 @@ export default function Page() {
                 <Label htmlFor="password">Password</Label>
                 <Link
                   className="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                  href="#"
+                  href="/auth/forgot-password"
                 >
                   Forgot password?
                 </Link>
@@ -40,10 +39,10 @@ export default function Page() {
               Login
             </Button>
             <div className="text-center text-sm text-gray-500 dark:text-gray-400">
-              Don't have an account?
-              <Button className="font-medium text-gray-900 hover:underline dark:text-gray-50" variant="link">
+              Don&apos;t have an account?
+              <Link className="font-medium text-gray-900 hover:underline dark:text-gray-50" href="/auth/register">
                 Sign up
-              </Button>
+              </Link>
             </div>
           </form>
         </div>
