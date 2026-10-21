@@ -38,8 +38,8 @@ export default function PatientRegisterForm() {
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="gender">Gênero</Label>
-                    <Select defaultValue="male" id="gender">
-                      <SelectTrigger>
+                    <Select defaultValue="male">
+                      <SelectTrigger id="gender">
                         <SelectValue placeholder="Selecione o gênero" />
                       </SelectTrigger>
                       <SelectContent>
@@ -90,8 +90,8 @@ export default function PatientRegisterForm() {
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="address-state">Estado</Label>
-                    <Select id="address-state">
-                      <SelectTrigger>
+                    <Select>
+                      <SelectTrigger id="address-state">
                         <SelectValue placeholder="Selecione o estado" />
                       </SelectTrigger>
                       <SelectContent>
@@ -148,8 +148,8 @@ export default function PatientRegisterForm() {
                       </div>
                       <div className="space-y-2">
                         <Label htmlFor="emergency-contact-relation">Relação com o Paciente</Label>
-                        <Select id="emergency-contact-relation">
-                          <SelectTrigger>
+                        <Select>
+                          <SelectTrigger id="emergency-contact-relation">
                             <SelectValue placeholder="Selecione a relação" />
                           </SelectTrigger>
                           <SelectContent>
