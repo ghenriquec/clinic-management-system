@@ -33,8 +33,8 @@ export default function ExamsRegistryForm() {
           </div>
           <div className="space-y-2">
             <Label htmlFor="specialty">Especialidade Associada</Label>
-            <Select id="specialty">
-              <SelectTrigger>
+            <Select>
+              <SelectTrigger id="specialty">
                 <SelectValue placeholder="Selecione a especialidade" />
               </SelectTrigger>
               <SelectContent>
