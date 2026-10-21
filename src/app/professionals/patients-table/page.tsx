@@ -9,7 +9,7 @@ export default function PatientsTable() {
     <div className="container mx-auto px-4 py-8">
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-2xl font-bold">Gerenciamento de Pacientes</h1>
-        <Button className="flex items-center gap-2" variant="primary">
+        <Button className="flex items-center gap-2" variant="default">
           <PlusIcon className="h-5 w-5" />
           Adicionar Paciente
         </Button>
