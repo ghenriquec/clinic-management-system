@@ -49,7 +49,7 @@ export default function RegisterExpenses() {
                 id="description"
                 placeholder="Digite uma descrição detalhada do gasto"
                 required
-                rows="3"
+                rows={3}
               />
             </div>
           </div>
